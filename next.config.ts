@@ -1,8 +1,8 @@
 import type { NextConfig } from "next";
 
-// Static export: `npm run build` writes a plain site to /out that any host can serve.
+// Vercel runs Next.js natively, so no static export is needed.
+// To host somewhere static instead (e.g. Cloudflare Pages), add `output: "export"` and build to /out.
 const nextConfig: NextConfig = {
-  output: "export",
   images: { unoptimized: true },
 };
 
