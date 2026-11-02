@@ -1,6 +1,6 @@
 # eSahuji website
 
-Marketing site for esahuji.com, built with Next.js (App Router, TypeScript).
+Marketing site for esahuji.com
 
 ## Run it
 
